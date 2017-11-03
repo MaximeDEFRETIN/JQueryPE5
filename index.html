@@ -12,10 +12,10 @@
     <button type="button" name="button" >Envoyer</button>
   </form>
   <script>
-$('#nom').focusout(function(){
+$('#nom').blur(function(){
   $('#nom').css('border','solid 1px red');
 });
-$('#prenom').focusout(function(){
+$('#prenom').blur(function(){
      $('#prenom').css('border','1px solid red');
    });
 $('#nom').focus(function(){
